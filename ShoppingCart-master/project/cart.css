@@ -1,0 +1,37 @@
+.cartItem{
+    background-color: whitesmoke;
+    width: 100%;
+    height: fit-content;
+    padding-left: 3%;
+    margin-top: 5%;
+}
+.cartItem > img{
+    height: 250px;
+    width: 200px;
+    margin-top: -15%;
+    padding-bottom: 2%;
+}
+.itemDesc{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 2%;
+    /* position: absolute; */
+}
+/*.remove{
+    margin-top: 25%;
+}
+.success{
+    margin-top: 15%;
+    margin-left: 10%;
+}*/
+.cartab > tr > td{
+ margin-top: 25%;
+}
+@media screen and (max-width: 996px){
+    .cartItem{
+        height:500px;
+    }
+    .cartItem > img{
+        margin-top:20px
+    }
+}

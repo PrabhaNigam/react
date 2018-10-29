@@ -1,0 +1,35 @@
+ [
+      {
+          "category":"Men",
+          "sub_category": [{"category":"Tshirts"},
+		                   {"category":"Men Shirts"},
+						        {"category":"Jeans"},
+						    {"category":"Shoes"}]
+      },
+      {
+          "category": "Women",
+          "sub_category": [{"category":"Kurta"},
+		                   {"category":"Shirts"},
+						        {"category":"AnkleJeans"},
+						     {"category":"Bags"}]
+      },
+      {
+          "category": "Electronics",
+          "sub_category": [{"category":"Mobile"},
+		                   {"category":"Laptop"},
+						       {"category":"Tablet"},
+						     {"category":"Fridge"}]
+      },
+      {
+        "category": "Home & Furniture",
+        "sub_category": [{"category":"Gas Stoves"},
+		                 {"category":"Pressure Cooker"},
+						      {"category":"Kitchen Tools"},
+						    {"category":"Bed"},
+						 {"category":"Sofa"}]
+    }
+  ]
+
+
+
+

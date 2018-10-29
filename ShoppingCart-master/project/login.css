@@ -1,0 +1,19 @@
+
+body{
+     background-image:url("images/background.jpg");  
+    
+    }		
+
+.login {
+  margin: 7% 10%;
+  position: relative;
+  width: 30%;
+  padding: 30px;
+  background-color: #ffefd5;
+}
+.btn {
+  width: 40%;
+  margin-left: 1.0%;
+}
+
+

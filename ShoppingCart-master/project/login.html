@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <title>ShopSite</title>
+  <link rel = "stylesheet"  type="text/css" href="login.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  
+<script src="login.js">
+
+</script>
+</head>
+
+<body >
+
+    <div class="card bg-info text-white">
+        <div class="card-body"><h1>ShopSite</h1></div>
+    </div>
+    <div class="login">
+       <form name="login">
+	     <p class="h4 mb-4">Sign In</p>
+       <div class="form-group">
+            <input type="text" name="uname" class="form-control" placeholder="Enter Username" id="uname"><br/>
+      </div>
+       <div class="form-group">
+             <input type="password" name="upassword" class="form-control" placeholder="Enter Password" id="upassword"><br/>
+        </div>    
+            <button type="button" class="btn btn-success" class="form-control"  onclick="check(this.form)">Login</button>
+			<button type="reset" class="btn btn-primary" class="form-control" >Cancel</button>
+        </form>
+    </div>
+
+</body>
+</html>

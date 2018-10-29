@@ -1,0 +1,45 @@
+.navbar-inverse {
+    background-color: deepskyblue !important;
+    
+}
+.card{
+    width: 350px;
+}
+.card-img-top{
+    width: 70%;
+}
+.btn{
+    margin-left: 5px;
+}
+.card > img{
+    padding-top: 15%;
+    height: 250px;
+    width: 160px;
+}
+.sub-category{
+    position: absolute;
+    z-index: 1;
+    background-color: deepskyblue !important;
+    color: black;
+    padding-bottom: 10%;
+}
+.dropdown{
+    cursor: pointer;
+}
+.sub-category > li{
+    padding-right: 40%;
+}
+.sub-category > li > a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.text-block {
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
+    color: white;
+}
+#shoes{
+    bottom: 200px;
+    color: blue;
+}
